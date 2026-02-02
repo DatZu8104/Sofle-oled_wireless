@@ -176,7 +176,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - LCTRL
   - ''
   - {type: held}
   - {t: ▽, type: trans}
