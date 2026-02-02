@@ -77,8 +77,8 @@ layers:
   - BACKSPACE
   - ''
   - UP ARROW
-  - ''
-  - ''
+  - '['
+  - ']'
   - Ctl+6
   - ''
   - ''
@@ -86,7 +86,7 @@ layers:
   - '{'
   - '}'
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN ARROW
   - RIGHT ARROW
@@ -98,12 +98,12 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
   - LEFT SHIFT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - \
+  - '='
+  - '-'
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '~'
@@ -159,7 +159,7 @@ layers:
   - RIGHT
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -167,7 +167,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - '`'
+  - ''
   - '-'
   - '='
   - \
