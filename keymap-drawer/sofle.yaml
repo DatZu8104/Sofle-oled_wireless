@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
-  - ''
+  - DELETE
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp MCLK'
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
+  - BACKSPACE
   - '&mkp MB4'
   - '&mmv MOVE_Y(-600)'
   - '&mkp MB5'
@@ -176,7 +176,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - ENTER
   - {type: held}
   - {t: ▽, type: trans}
   - ''
