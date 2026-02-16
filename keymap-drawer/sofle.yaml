@@ -125,10 +125,10 @@ layers:
   mouse:
   - DELETE
   - {t: ▽, type: trans}
+  - ''
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
