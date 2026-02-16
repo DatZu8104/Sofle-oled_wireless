@@ -43,13 +43,13 @@
 &kp ESC    &kp N1  &kp N2    &kp N3    &kp N4                &kp N5                                             &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp DELETE
 &kp TAB    &kp Q   &kp W     &kp E     &kp R                 &kp T                                              &kp Y   &kp U   &kp I      &kp O    &kp P     &kp BSPC
 &kp GRAVE  &kp A   &kp S     &kp D     &kp F                 &kp G                                              &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X     &kp C     &kp V                 &kp B             &kp C_MUTE    &kp LC(LS(GRAVE))  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
-                   &kp LGUI  &kp LALT  &mt LEFT_SHIFT SPACE  &kp LEFT_CONTROL  &mo 2         &mo 1              &mo 4   &mo 5   &none      &none
+&kp LSHFT  &kp Z   &kp X     &kp C     &kp V                 &kp B             &kp LC(LS(GRAVE))    &kp C_MUTE  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+                   &kp LGUI  &kp LALT  &mt LEFT_SHIFT SPACE  &kp LEFT_CONTROL  &mo 2                &mo 1       &mo 4   &mo 5   &none      &none
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp PG_UP PG_DN>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         lower_layer {
@@ -78,12 +78,14 @@
 
         move_mouse {
             bindings = <
-&none    &trans            &trans            &trans           &trans  &trans                       &trans     &trans             &trans             &trans            &trans  &trans
-&kp TAB  &mkp MB4          &msc MOVE_Y(15)   &mkp MB5         &trans  &trans                       &trans     &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &none   &trans
-&trans   &msc MOVE_X(-20)  &msc MOVE_Y(-15)  &msc MOVE_X(20)  &trans  &trans                       &trans     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans  &trans
-&trans   &trans            &trans            &trans           &trans  &trans     &trans    &trans  &trans     &trans             &trans             &trans            &trans  &trans
-                           &kp LEFT_WIN      &kp LEFT_ALT     &none   &kp LCTRL  &trans    &trans  &mkp LCLK  &mkp MCLK          &mkp RCLK          &none
+&none    &trans             &trans             &trans            &trans            &trans                             &trans  &trans             &trans             &trans            &trans  &trans
+&kp TAB  &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &trans            &trans                             &trans  &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &none   &trans
+&trans   &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(15)   &trans                             &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans  &trans
+&trans   &trans             &trans             &msc MOVE_X(-20)  &msc MOVE_Y(-15)  &msc MOVE_X(20)  &trans    &trans  &trans  &trans             &trans             &trans            &trans  &trans
+                            &none              &mkp LCLK         &mkp MCLK         &mkp RCLK        &trans    &trans  &none   &none              &none              &none
             >;
+
+            label = "mouse";
         };
 
         adjust_layer {
