@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - B
-  - MUTE
   - Ctl+Sft+`
+  - MUTE
   - N
   - M
   - ','
@@ -55,7 +55,7 @@ layers:
   - LALT
   - {t: SPACE, h: LEFT SHIFT}
   - LEFT CONTROL
-  - move_mouse
+  - mouse
   - lower
   - right_1
   - right_2
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  move_mouse:
+  mouse:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - TAB
   - '&mkp MB4'
-  - '&msc MOVE_Y(15)'
+  - '&mmv MOVE_Y(-600)'
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,10 +148,10 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc MOVE_X(-20)'
-  - '&msc MOVE_Y(-15)'
-  - '&msc MOVE_X(20)'
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
+  - '&msc MOVE_Y(15)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mmv MOVE_X(-600)'
@@ -162,6 +162,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&msc MOVE_X(-20)'
+  - '&msc MOVE_Y(-15)'
+  - '&msc MOVE_X(20)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,18 +173,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT WIN
-  - LEFT ALT
   - ''
-  - LCTRL
-  - {type: held}
-  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - ''
   adjust:
   - BT CLR
@@ -300,7 +300,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - move_mouse
+  - mouse
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
