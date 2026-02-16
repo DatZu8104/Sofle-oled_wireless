@@ -55,12 +55,12 @@ layers:
   - LALT
   - {t: SPACE, h: LEFT SHIFT}
   - LEFT CONTROL
+  - move_mouse
   - lower
-  - raise
   - right_1
   - right_2
   - ''
-  - {t: move_mouse, h: toggle}
+  - ''
   lower:
   - F12
   - F1
@@ -82,7 +82,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - UP ARROW
   - ''
   - ''
   - ''
@@ -93,9 +93,9 @@ layers:
   - '`'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -116,18 +116,13 @@ layers:
   - LEFT ALT
   - SPACE
   - ENTER
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  move_mouse:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,54 +130,59 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - UP ARROW
-  - '['
-  - ']'
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - TAB
+  - '&mkp MB4'
+  - '&msc MOVE_Y(15)'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mmv MOVE_Y(-600)'
+  - '&mkp MB5'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - '&msc MOVE_X(-20)'
+  - '&msc MOVE_Y(-15)'
+  - '&msc MOVE_X(20)'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT WIN
+  - LEFT ALT
   - ''
   - LCTRL
-  - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - ''
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -366,67 +366,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  move_mouse:
-  - {t: default, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - TAB
-  - '&mkp MB4'
-  - '&msc MOVE_Y(15)'
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - '&mmv MOVE_Y(-600)'
-  - '&mkp MB5'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&msc MOVE_X(-20)'
-  - '&msc MOVE_Y(-15)'
-  - '&msc MOVE_X(20)'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(600)'
-  - '&mmv MOVE_X(600)'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT WIN
-  - LEFT ALT
-  - ''
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: '&mkp LCLK', type: held}
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - {t: default, h: toggle}
   game_mode:
   - {t: ▽, type: trans}
   - {t: 2sqq, h: toggle}
