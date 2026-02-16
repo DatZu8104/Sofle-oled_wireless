@@ -83,11 +83,10 @@ layers:
   - ''
   - ''
   - ''
-  - '{'
-  - '}'
+  - ''
+  - ''
   - ''
   - {t: ▽, type: trans}
-  - ''
   - \
   - '='
   - '-'
@@ -98,8 +97,9 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - ''
   - ''
   - ''
   - ''
@@ -425,7 +425,7 @@ layers:
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   game_mode:
   - {t: ▽, type: trans}
