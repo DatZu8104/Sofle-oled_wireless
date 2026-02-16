@@ -78,7 +78,7 @@
 
         move_mouse {
             bindings = <
-&kp DELETE     &trans             &mkp LCLK          &mkp MCLK         &mkp RCLK         &trans                             &trans  &trans             &trans             &trans            &trans  &trans
+&kp DELETE     &trans             &none              &mkp LCLK         &mkp MCLK         &mkp RCLK                          &trans  &trans             &trans             &trans            &trans  &trans
 &kp BACKSPACE  &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &trans            &trans                             &trans  &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &none   &trans
 &trans         &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(15)   &trans                             &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans  &trans
 &trans         &trans             &trans             &msc MOVE_X(-20)  &msc MOVE_Y(-15)  &msc MOVE_X(20)  &trans    &trans  &trans  &trans             &trans             &trans            &trans  &trans
