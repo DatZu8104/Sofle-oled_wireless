@@ -379,16 +379,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
   - '&mkp MB4'
   - '&msc MOVE_Y(15)'
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_Y(-400)'
-  - ''
+  - '&mkp MB4'
+  - '&mmv MOVE_Y(-600)'
+  - '&mkp MB5'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -398,9 +398,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(400)'
-  - '&mmv MOVE_X(400)'
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -417,15 +417,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT WIN
+  - LEFT ALT
+  - ''
+  - LCTRL
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
+  - {type: held}
+  - {t: '&mkp LCLK', type: held}
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - ''
   - {t: default, h: toggle}
   game_mode:
   - {t: ▽, type: trans}
