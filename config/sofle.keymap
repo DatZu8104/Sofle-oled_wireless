@@ -139,11 +139,11 @@
 
         move_mouse {
             bindings = <
-&to 0   &trans            &trans            &trans           &trans     &trans                       &trans  &trans             &trans             &trans            &trans  &trans
-&trans  &mkp MB4          &msc MOVE_Y(15)   &mkp MB5         &trans     &trans                       &trans  &trans             &mmv MOVE_Y(-400)  &none             &none   &trans
-&trans  &msc MOVE_X(-20)  &msc MOVE_Y(-15)  &msc MOVE_X(20)  &trans     &trans                       &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &trans  &trans
-&trans  &trans            &trans            &trans           &trans     &trans     &trans    &trans  &trans  &trans             &trans             &trans            &trans  &trans
-                          &trans            &mkp LCLK        &mkp MCLK  &mkp RCLK  &trans    &trans  &trans  &trans             &none              &to 0
+&to 0    &trans            &trans            &trans           &trans  &trans                       &trans     &trans             &trans             &trans            &trans  &trans
+&kp TAB  &mkp MB4          &msc MOVE_Y(15)   &mkp MB5         &trans  &trans                       &trans     &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &none   &trans
+&trans   &msc MOVE_X(-20)  &msc MOVE_Y(-15)  &msc MOVE_X(20)  &trans  &trans                       &trans     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans  &trans
+&trans   &trans            &trans            &trans           &trans  &trans     &trans    &trans  &trans     &trans             &trans             &trans            &trans  &trans
+                           &kp LEFT_WIN      &kp LEFT_ALT     &none   &kp LCTRL  &trans    &trans  &mkp LCLK  &mkp MCLK          &mkp RCLK          &to 0
             >;
         };
 
